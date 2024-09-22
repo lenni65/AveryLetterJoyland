@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.imgur.com/A05ONN6.png'); /* Background image */
+    background-size: cover; /* Cover the entire page */
+    background-position: center; /* Center the image */
+    font-family: 'Finger Paint', Arial, sans-serif; /* Apply the Finger Paint font */
+    color: rgba(0, 0, 0, 0.6); /* Text color */
+    text-align: center; /* Center-aligns text */
+    padding: 20px; /* Add padding */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+.overlay-text {
+    max-width: 90%; /* Limit the text width to 90% of the viewport */
+    font-size: 1.5vw; /* Smaller base font size */
+}
+
+/* Media query for smaller screens */
+@media (max-width: 600px) {
+    .overlay-text {
+        font-size: 3vw; /* Adjusted font size for small screens */
+    }
+}
